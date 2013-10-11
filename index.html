@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/supersized.shutter.css" type="text/css" media="screen" />
+<link rel="shortcut icon" href="images/favicon.png">
+<title>Home</title>
+</head>
+<body>
+    <div id="container">
+      <div id="wrap">
+          
+        <div class="aside">    
+         <div id="logo">
+            <img src="images/logo.png" alt="logo"></img>
+         </div><!--/ logo-->
+         <div class="nav-menu">
+            <ul class="menu">
+               <li><p>Atins, Lençóis Maranhenses, Brasil</p></li>
+               <li><a href="mailto:info@casadoboiatins.com">info@casadoboiatins.com</a></li>
+               <li><a href="www.facebook.com/casadoboiatins" style="top:0; margin-right:10px;"><img src="images/facebook-icon.png"/></a><p> + 55 98 9100 2022</p></li>              
+          </ul>
+        </div><!--/ nav-menu-->
+         
+        </div><!--/ aside-->
+          <div id="sidebar">
+            <div id="twitter">           
+              <ul class="tweets">
+                <li><p><img src="images/brazil.jpg"/></br>
+              Casa Do Boi é uma casa de aluguel temporal situada no paradisíaco Atins na entrada do Parque Nacional dos Lençóis Maranhenses, ideal para quem quer passar umas férias inesquecíveis na praia. 
+              A casa foi delicadamente decorada e totalmente equipada pensando no seu conforto e tranquilidade. O grande e ventilado mezanino de madeira oferece visuais inacreditáveis da praia e do jardim, perfeito para se relaxar completamente. A localização da casa é ideal: fica a 100mts da praia, perto de restaurantes e comércios e a 30 minutos andando do Parque.</p>
+              </li>
+              <li><img src="images/espanol.jpg"/></br>
+              <p>Casa Do Boi es una casa de alquiler temporal situada en el paradisíaco Atins, villa que se encuentra en la entrada del Parque Nacional de los Lençóis Maranhenses. Es la opción ideal para quien desea pasar unas vacaciones inolvidables en la playa.
+              La casa fue delicadamente decorada e totalmente equipada pensando en su confort e tranquilidad. Desde lo alto del ventilado entrepiso de madera se tienen visuales increíbles de la playa y el jardín, perfecto para una completa relajación. Su ubicación es ideal: a sólo 100 mts de la playa, cerca de restaurantes y comercios e apenas 30 minutos de caminata al Parque.</p>
+              </li>
+              <li><img src="images/eeuu.jpg"/></br>
+              <p>Casa Do Boi is a vacation rental beach house in Atins, a small fishermen village in the Lençóis Maranhenses National Park`s coastline.
+              The house is carefully decorated and fully equipped for a comfortable and peaceful stay. Casa Do Boi features a large wooden mezzanine to chill out enjoying breathtaking views of the ocean and a magnificent shady garden. 
+              It is situated in the most ideal location, just 100mts from the beach and a few minutes’ walk to the restaurants and shops.</p></li>
+
+          </div><!--/ twitter-->
+        </div>                 
+      </div><!--/ wrap-->  
+
+        </div>       
+    </div>    
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/supersized.3.2.6.js"></script>
+    <script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="js/jquery.ui.map.min.js"></script>
+  <script type="text/javascript" src="js/contact_form.js"></script>
+    <script type="text/javascript">
+        
+        jQuery(function($){
+            
+            $.supersized({
+            
+                // Functionality
+                slideshow               :   1,			// Slideshow on/off
+                autoplay				:	1,			// Slideshow starts playing automatically
+                start_slide             :   1,			// Start slide (0 is random)
+                stop_loop				:	0,			// Pauses slideshow on last slide
+                random					: 	1,			// Randomize slide order (Ignores start slide)
+                slide_interval          :   4000,		// Length between transitions
+                transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+                transition_speed		:	1000,		// Speed of transition
+                new_window				:	1,			// Image links open in new window/tab
+                pause_hover             :   0,			// Pause slideshow on hover
+                keyboard_nav            :   1,			// Keyboard navigation on/off
+                performance				:	0,			// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+                image_protect			:	1,			// Disables image dragging and right click with Javascript
+                                                           
+                // Size & Position						   
+                min_width		        :   0,			// Min width allowed (in pixels)
+                min_height		        :   0,			// Min height allowed (in pixels)
+                vertical_center         :   1,			// Vertically center background
+                horizontal_center       :   1,			// Horizontally center background
+                fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+                fit_portrait         	:   1,			// Portrait images will not exceed browser height
+                fit_landscape			:   0,			// Landscape images will not exceed browser width
+                                                           
+                // Components							
+                slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+                thumb_links				:	1,			// Individual thumb links for each slide
+                thumbnail_navigation    :   0,			// Thumbnail navigation
+                slides 					:  	[			// Slideshow Images
+                          {image : 'images/bgs/1.jpg', },
+                          {image : 'images/bgs/2.jpg', },
+													{image : 'images/bgs/3.jpg', },
+													//{image : 'images/bgs/4.jpg', },
+													//{image : 'images/bgs/5.jpg', },
+													//{image : 'images/bgs/6.jpg', },
+													//{image : 'images/bgs/7.jpg', },
+													//{image : 'images/bgs/8.jpg', },
+													//{image : 'images/bgs/9.jpg', thumb : 'images/bgs/9t.jpg'},
+													//{image : 'images/bgs/10.jpg', thumb : 'images/bgs/10t.jpg'},
+													//{image : 'images/bgs/11.jpg', thumb : 'images/bgs/11t.jpg'}
+                                            ],
+                                            
+                // Theme Options			   
+                progress_bar			:	0,			// Timer for each slide							
+                mouse_scrub				:	0
+                
+            });
+        });
+        
+    </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44715130-1', 'atinskiteboarding.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
