@@ -762,7 +762,8 @@ ol.commentlist li{
 #sidebar {
 
 	overflow: hidden;
-	margin-top: 7em;
+	margin-top: 3em;
+	padding-top: 3em;
 	float: right;
 	width: 100%;
 	background: rgba(29, 29, 29, 1);
