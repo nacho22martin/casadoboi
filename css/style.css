@@ -231,7 +231,7 @@ body.temp_06 {
 /*----------------------------------------------*/
 
 .aside {
-	width: 375px;
+	width: 42%;
 	margin-top: 3em;
 	margin-right: auto;
 	margin-left: auto;
@@ -242,7 +242,7 @@ body.temp_06 {
 
 #logo img{
 
-	margin-left: 7%;
+	margin-left: 21%;
 }
 #logo h2 a {
 	letter-spacing:-3px;
@@ -279,7 +279,7 @@ ul.menu {
 ul.menu li {
 	background: #ffc100;
 	width: auto;
-	height: 45px;
+	height: 42px;
 	margin-bottom: 20px;
 	display: inline-table;
 	padding-left: 1em;
@@ -294,7 +294,7 @@ ul.menu li a {
 	display:block;
 	position:relative;
 	color:#f6f6f6;
-	font-size:16px;
+	font-size:23px;
 	padding-top:8px !important;
 	float: left;
 	width:auto;
@@ -309,7 +309,7 @@ ul.menu li p {
 	display:block;
 	position:relative;
 	color:#f6f6f6;
-	font-size:16px;
+	font-size:21px;
 	padding-top:8px !important;
 	float: left;
 	width:auto;
