@@ -231,7 +231,8 @@ body.temp_06 {
 /*----------------------------------------------*/
 
 .aside {
-	width: 42%;
+	width: 50%;
+	min-width: 560px;
 	margin-top: 3em;
 	margin-right: auto;
 	margin-left: auto;
@@ -242,7 +243,7 @@ body.temp_06 {
 
 #logo img{
 
-	margin-left: 21%;
+	margin-left: 25%;
 }
 #logo h2 a {
 	letter-spacing:-3px;
