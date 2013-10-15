@@ -420,7 +420,8 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 
 .wrapper {
 	/*float:right;*/
-	margin-right: 2em	;
+	min-height:100%;
+	margin-right: 2em;
 	/*margin-top:240px;*/
 } 
 
