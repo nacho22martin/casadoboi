@@ -36,7 +36,8 @@ body {
 	font-family:Tahoma, Geneva, sans-serif;
 	color:#8c8c8c;
 	font-size:14px;
-	line-height:1.4em
+	line-height:1.4em;
+	height:100%;
 }
 
 body p {
@@ -237,7 +238,7 @@ body.temp_06 {
 	margin-top: 3em;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 2em;
+	margin-bottom: 480px;
 }
 
 /* Logo */
@@ -422,6 +423,7 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 	/*float:right;*/
 	min-height:100%;
 	margin-right: 2em;
+	position:relative;
 	/*margin-top:240px;*/
 } 
 
@@ -767,7 +769,10 @@ ol.commentlist li{
 	overflow: hidden;
 	margin-top: 3em;
 	padding-top: 2em;
+	position: absolute;
 	float: right;
+	bottom:0;
+	left:0;
 	width: 100%;
 	background: rgba(29, 29, 29, 1);
 }
