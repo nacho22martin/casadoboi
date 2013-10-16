@@ -176,6 +176,7 @@ body.temp_06 {
 .container_11 {
 	margin-bottom:50px;
 	border-radius: 10px;
+	min-height: 100%;
 	width: 760px;
 	overflow:hidden;
 	background:url(../images/bg_container.png) repeat-y #1d1d1d;
@@ -224,6 +225,7 @@ body.temp_06 {
 #wrap {
 	position:relative; 
 	overflow:hidden;
+	min-height:100%;
 } 
 
 
@@ -233,12 +235,12 @@ body.temp_06 {
 
 .aside {
 	width: 100%;
-	min-height: 35em;
+	position: relative;	
 	min-width: 560px;
 	margin-top: 3em;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 480px;
+	padding-bottom: 36%;
 }
 
 /* Logo */
@@ -422,8 +424,8 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 .wrapper {
 	/*float:right;*/
 	min-height:100%;
-	margin-right: 2em;
 	position:relative;
+	margin-right: 2em;	
 	/*margin-top:240px;*/
 } 
 
@@ -769,8 +771,9 @@ ol.commentlist li{
 	overflow: hidden;
 	margin-top: 3em;
 	padding-top: 2em;
-	position: absolute;
+	position: relative;
 	float: right;
+	height: 400px;
 	bottom:0;
 	left:0;
 	width: 100%;
